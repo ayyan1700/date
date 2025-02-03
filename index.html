@@ -29,7 +29,12 @@
             for (let year = 2014; year <= 2050; year++) { const firstJan=new Date(year, 0, 1); console.log(`1st January ${year}:
                 ${firstJan.toDateString()}`); } function isLeapYear(year) { return (year % 4===0 && (year % 100 !==0 || year %
                 400===0)); } for (let year=2014; year <=2050; year++) { if (isLeapYear(year)) { console.log(`${year} is a Leap
-                Year`); } } </script>
+                Year`); } }
+            </script>
+    // 3 23 == rd
+    //1 21 31 == st 
+    //1 22 ==> nd
+    //th baqi ke saath
 
 </body>
 </html>
